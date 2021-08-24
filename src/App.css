@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btn-1{
+  background-color: #FF4C29;
+  border-radius: 50%;
+}
+h1{
+  text-align: center;
+  margin-top: 2rem;
+}
+.upload:hover{
+  color: #FF4C29;
+}
+
+
+/* page 1 */
+
+.container {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px,
+  
+}
+
+label {
+  color: #333
+}
+
+.btn-send {
+  font-weight: 300;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin: 50px;
+}
+
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px
+}
+
+.form-group {
+  padding-top: 25px;
+}
